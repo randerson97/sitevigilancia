@@ -1,13 +1,16 @@
-<!-- index.html (página raiz) -->
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Início</title>
-  <meta http-equiv="refresh" content="0; URL='./pages/login.html'" />
+  <title>Dashboard</title>
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-  <p>Redirecionando para a página de login...</p>
+<body class="bg-gray-100">
+  <div class="p-6">
+    <h1 class="text-3xl font-bold mb-4">Dashboard</h1>
+    <button id="logoutBtn" class="bg-red-600 text-white px-4 py-2 rounded">Sair</button>
+  </div>
+  <script type="module" src="../js/dashboard.js"></script>
 </body>
 </html>
